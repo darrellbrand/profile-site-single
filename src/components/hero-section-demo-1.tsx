@@ -83,7 +83,7 @@ export default function HeroSectionOne() {
           >
             <div className="w-full overflow-hidden h-auto rounded-xl border border-gray-300 dark:border-gray-700">
               <img
-                src="https://darrellbrand.github.io/profile-site-static/images/Screenshot_20250416_181523.png"
+                src="./profile-site-static/images/Screenshot_20250416_181523.png"
                 alt="Landing page preview"
                 className="aspect-[16/9] y-fit w-fit object-cover "
                 height={1000}
