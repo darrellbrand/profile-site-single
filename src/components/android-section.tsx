@@ -23,7 +23,7 @@ export default function AndroidSectionOne() {
                     </CardHeader>
                     <CardContent className=" justify-center flex-1">
                         <img
-                            src="/images/Screenshot_20250411_134037.png"
+                            src="./images/Screenshot_20250411_134037.png"
                             alt="Landing page preview"
                             className=" max-w-xs w-full  object-cover "
                         />
@@ -37,7 +37,7 @@ export default function AndroidSectionOne() {
                     <CardContent className="justify-center ">
 
                         <img
-                            src="/images/Screenshot_20250411_134214.png"
+                            src="./images/Screenshot_20250411_134214.png"
                             alt="Landing page preview"
                             className=" max-w-xs w-full object-cover"
                         />
@@ -51,7 +51,7 @@ export default function AndroidSectionOne() {
                     <CardContent className="justify-center">
 
                         <img
-                            src="/images/Screenshot_20250411_134127.png"
+                            src="./images/Screenshot_20250411_134127.png"
                             alt="Landing page preview"
                             className=" max-w-xs w-full  object-cover"
                         />
