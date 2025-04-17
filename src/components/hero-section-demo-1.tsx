@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function HeroSectionOne() {
   return (
-    <section id="home" className="mt-30  pb-30  bg-neutral-200/80 dark:bg-neutral-800/80 " >
+    <section id="home" className=" pt-40   pb-30  bg-neutral-200/80 dark:bg-neutral-800/80 " >
       <div className="relative flex flex-col ">
         <div className="max-w-7xl mx-auto">
           <h1 className="relative z-10 mx-auto mt-10 max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
