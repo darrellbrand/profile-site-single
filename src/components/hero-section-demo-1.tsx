@@ -5,8 +5,8 @@ import { motion } from "motion/react";
 
 export default function HeroSectionOne() {
   return (
-    <section id="home">
-      <div className="relative mx-auto mt-30   flex max-w-7xl flex-col items-center justify-center   ">
+    <section id="home" >
+      <div className="relative flex flex-col ">
       
         <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
           <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent" />
@@ -17,7 +17,7 @@ export default function HeroSectionOne() {
         <div className="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80">
           <div className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
         </div>
-        <div className="px-4 py-10 md:py-20">
+        <div className="">
           <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
             {"Hi.  I'm Darrell, a native android and full stack web developer"
               .split(" ")
@@ -65,9 +65,16 @@ export default function HeroSectionOne() {
             }}
             className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
           >
+            <a href="#profile">
             <button className="w-60 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">
               Learn More
             </button>
+            </a>
+            <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
+            <button className="w-60 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">
+              Check Out Demo Video
+            </button>
+            </a>
           </motion.div>
           <motion.div
             initial={{
