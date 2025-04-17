@@ -11,11 +11,11 @@ import {
 
 export default function ProfileSectionOne() {
     return (
-        <section id="profile" className="relative w-full my-10  ">
+        <section id="profile" className="relative w-full my-20  ">
             <div className="w-full flex  ">
                 <div className="w-full relative flex justify-center mx-auto  ">
                     <div className="flex flex-col w-full  gap-5 pb-10   mx-auto max-w-7xl ">
-                        <h1 className=" text-center text-4xl font-bold dark:text-neutral-100 md:text-4xl lg:text-7xl text-slate-500 self-start mx-5">About</h1>
+                        <h1 className=" my-10 text-center text-4xl font-bold dark:text-neutral-100 md:text-4xl lg:text-7xl text-slate-500 self-start mx-5">About</h1>
                         <Card className=" w-full items-center px-5 pt-10  ">
                             <CardHeader className="w-full text-2xl ">
                                 <CardTitle className="pb-5 whitespace-normal sm:whitespace-nowrap sm:overflow-hidden sm:text-ellipsis ">Darrell Friday Software Engineer.</CardTitle>

@@ -10,7 +10,7 @@ import {
 
 export default function AndroidSectionOne() {
     return (
-        <section id="android" className="relative w-full h-full   bg-neutral-400/80 dark:bg-neutral-700">
+        <section id="android" className="relative w-full h-full pt-20  bg-neutral-400/80 dark:bg-neutral-700">
             <div className="flex flex-col mx-auto max-w-7xl">
                 <h1 className="my-10 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-slate-500 ">Recipe king android app</h1>
            
