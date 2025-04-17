@@ -22,7 +22,7 @@ export default function ProfileSectionOne() {
                             </CardHeader>
                             <CardContent className="flex flex-col  sm:flex-col md:flex-col gap-10 justify-between items-center">
                                 <img
-                                    src="/images/1744560812159.jpg"
+                                    src="/profile-site-static/images/1744560812159.jpg"
                                     alt="Landing page preview"
                                     className=" max-w-xs w-full h-full object-cover rounded-full"
                                 />
