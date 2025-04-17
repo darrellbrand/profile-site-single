@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 
-const repoName = 'profile-site-static';
+const repoName = 'profile-site-single';
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig: NextConfig = {
   /* config options here */
