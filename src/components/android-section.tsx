@@ -12,22 +12,12 @@ import { Button } from "./ui/button";
 
 export default function AndroidSectionOne() {
     return (
-        <section id="android" className="relative w-full h-full pt-5  ">
-
-            <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
-                <div className="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent" />
-            </div>
-            <div className="absolute inset-y-0 right-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
-                <div className="absolute h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent" />
-            </div>
-            <div className="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80">
-                <div className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
-            </div>
+        <section id="android" className="relative w-full h-full   bg-neutral-400/80 dark:bg-neutral-700">
             <div className="flex flex-col mx-auto max-w-7xl">
-                <h1 className="my-15 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-slate-500 ">Recipe king android app</h1>
+                <h1 className="my-10 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-slate-500 ">Recipe king android app</h1>
            
 
-            <div className="flex flex-col md:flex-row relative  items-stretch justify-center w-full gap-5 pb-10   ">
+            <div className="flex flex-col md:flex-row relative  items-stretch justify-center w-full gap-5 pb-10 ">
                 <Card className=" w-full items-center">
                     <CardHeader className="w-full text-2xl">
                         <CardTitle>Category screen</CardTitle>
