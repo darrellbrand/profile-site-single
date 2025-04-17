@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function HeroSectionOne() {
   return (
-    <section id="home" className="mt-40 mb-15 max-w-7xl mx-auto" >
+    <section id="home" className="mt-40 mb-15  bg-neutral-200/80 dark:bg-neutral-800/80 " >
       <div className="relative flex flex-col ">
       
         <div className="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80">
@@ -17,8 +17,8 @@ export default function HeroSectionOne() {
         <div className="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80">
           <div className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
         </div>
-        <div className="">
-          <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="relative z-10 mx-auto mt-10 max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
             {"Hi.  I'm Darrell, a native android and full stack web developer"
               .split(" ")
               .map((word, index) => (

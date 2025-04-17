@@ -24,7 +24,7 @@ export default function ProfileSectionOne() {
                     <div className="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80">
                         <div className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
                     </div>
-                    <div className="flex flex-col w-full p-5 gap-5 mx-auto  ">
+                    <div className="flex flex-col w-full p-5 gap-5  mx-auto max-w-7xl ">
                         <h1 className=" text-center text-4xl font-bold dark:text-neutral-100 md:text-4xl lg:text-7xl text-slate-500 self-start mx-5">About</h1>
                         <Card className=" w-full items-center px-5 pt-10  ">
                             <CardHeader className="w-full text-2xl ">
