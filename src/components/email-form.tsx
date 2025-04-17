@@ -8,7 +8,7 @@ export default function EmailForm() {
         <section id="contact" className='w-full' >
            
             <div className='flex flex-col items-center mx-auto  my-5   max-w-7xl border rounded-4xl w-full'>
-            <h1 className=' pt-5 my-5 px-5 w-full text-2xl font-bold dark:text-neutral-200 md:text-4xl lg:text-7xl text-slate-500'>Contact</h1>
+            <h1 className=' pt-5 my-5 px-5 w-full text-4xl font-bold dark:text-neutral-200 md:text-4xl lg:text-7xl text-slate-500'>Contact</h1>
                 <form
                     action="https://formspree.io/f/xeoanalj"
                     method="POST"
