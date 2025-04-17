@@ -121,3 +121,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.text-android {
+  color: #3DDC84;
+}
