@@ -21,7 +21,7 @@ export function FeaturesSectionDemoAbout() {
                     {grid.map((feature) => (
                         <div
                             key={feature.title}
-                            className="relative  bg-neutral-200 dark:bg-neutral-900/40 p-6 rounded-3xl overflow-hidden"
+                            className="relative  bg-neutral-300/40  dark:bg-neutral-700/40 p-6 rounded-3xl overflow-hidden"
                         >
                             <Grid size={20} />
                             <div className="text-center ">
