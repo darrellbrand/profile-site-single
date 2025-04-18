@@ -12,10 +12,10 @@ export default function AndroidSectionOne() {
     return (
         <section id="android" className="relative w-full h-full pt-20  bg-neutral-400/80 dark:bg-neutral-700">
             <div className="flex flex-col mx-auto max-w-7xl">
-                <h1 className="my-10 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-slate-500 ">Recipe king android app</h1>
+                <h1 className="my-10 px-5 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-slate-500 ">Android recipe app</h1>
            
 
-            <div className="flex flex-col md:flex-row relative  items-stretch justify-center w-full gap-5 pb-10 ">
+            <div className="flex flex-col md:flex-row relative text-center  items-stretch justify-center w-full gap-5 pb-10 ">
                 <Card className=" w-full items-center">
                     <CardHeader className="w-full text-2xl">
                         <CardTitle>Category screen</CardTitle>
@@ -32,7 +32,7 @@ export default function AndroidSectionOne() {
                 <Card className="w-full items-center ">
                     <CardHeader className="w-full text-2xl ">
                         <CardTitle className="">Generate recipe with AI</CardTitle>
-                        <CardDescription className="text-2xl">Pick from common ingredients and generate an AI powered recipe.</CardDescription>
+                        <CardDescription className="text-xl">Pick from common ingredients and generate an AI powered recipe.</CardDescription>
                     </CardHeader>
                     <CardContent className="justify-center ">
 
