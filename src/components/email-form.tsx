@@ -6,7 +6,7 @@ import { TypewriterEffectDemo } from './typewriter-demo'
 
 export default function EmailForm() {
     return (
-        <section id="contact" className='w-full  bg-neutral-300/80 dark:bg-neutral-800 pt-20' >
+        <section id="contact" className='w-full  bg-neutral-400/60 dark:bg-neutral-800 pt-20' >
             <div className=' flex flex-col w-full max-w-7xl mx-auto'>
                 <h1 className=' pt-5 my-5 px-5 w-full text-2xl font-bold dark:text-neutral-200 md:text-3xl lg:text-5xl text-neutral-600'>Contact</h1>
                 <div className='flex flex-col items-center mx-auto  mt-10 mb-5 pt-20   max-w-7xl border rounded-2xl w-full   bg-neutral-300/80 dark:bg-neutral-700'>
