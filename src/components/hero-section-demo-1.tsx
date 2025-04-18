@@ -8,7 +8,7 @@ export default function HeroSectionOne() {
     <section id="home" className=" pt-20   pb-30  bg-neutral-200/80 dark:bg-neutral-600/90 " >
       <div className="relative flex flex-col ">
         <div className="max-w-7xl mx-auto">
-          <h1 className="relative z-10 mx-auto mt-10 max-w-4xl text-center text-2xl font-bold text-neutral-700 md:text-4xl lg:text-7xl dark:text-neutral-300 ">
+          <h1 className="relative z-10 mx-auto mt-10 max-w-4xl text-center text-2xl font-bold text-neutral-700 md:text-4xl lg:text-7xl dark:text-neutral-50 ">
             {"Hi. I'm Darrell, a native android and full stack web developer."
               .split(" ")
               .map((word, index) => (
