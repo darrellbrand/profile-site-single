@@ -16,7 +16,7 @@ export function FeaturesSectionDemoAbout() {
         <section id="skills"className="bg-neutral-200/80 dark:bg-neutral-600 py-20">
            
             <div className="flex flex-col py-10 items-start max-w-7xl mx-auto " >
-            <h1 className="text-2xl px-5 font-bold mb-10 md:text-4xl lg:text-7xl dark:text-neutral-100 text-slate-700">Skills</h1>
+            <h1 className="text-4xl px-5 font-bold mb-10 md:text-4xl lg:text-7xl dark:text-neutral-100 text-slate-700">Skills</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-4 ">
                     {grid.map((feature) => (
                         <div
