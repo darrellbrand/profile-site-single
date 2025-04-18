@@ -9,7 +9,7 @@ export default function HeroSectionOne() {
       <div className="relative flex flex-col ">
         <div className="max-w-7xl mx-auto">
           <h1 className="relative z-10 mx-auto mt-10 max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
-            {"Hi.  I'm Darrell,  a native android and full stack web developer."
+            {"Hi. I'm Darrell, a native android and full stack web developer."
               .split(" ")
               .map((word, index) => (
                 <motion.span
