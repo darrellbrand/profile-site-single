@@ -46,7 +46,7 @@ export default function EmailForm() {
                     </form>
                     <Link href="https://github.com/darrellbrand"
                         className="text-blue-600 hover:underline pt-4 m-4" >
-                        Check Out My Github
+                        Check out my Github
                     </Link>
                 </div>
             </div>
