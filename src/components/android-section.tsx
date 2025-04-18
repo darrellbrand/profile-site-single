@@ -12,7 +12,7 @@ export default function AndroidSectionOne() {
     return (
         <section id="android" className="relative w-full h-full pt-20  bg-neutral-300/80 dark:bg-neutral-700">
             <div className="flex flex-col mx-auto max-w-7xl">
-                <h1 className="my-10 px-5 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-neutral-600 ">Android recipe app</h1>
+                <h1 className="my-10 px-5 text-2xl font-bold dark:text-neutral-200 md:text-3xl lg:text-5xl text-neutral-600 ">Android recipe app</h1>
            
 
             <div className="flex flex-col md:flex-row relative text-center  items-stretch justify-center w-full gap-5 pb-10 ">
