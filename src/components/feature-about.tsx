@@ -8,7 +8,6 @@ import {
     TerminalSquare,
     Server,
     Lock,
-    Code
 } from "lucide-react";
 import { SVGProps, useId, } from "react";
 
