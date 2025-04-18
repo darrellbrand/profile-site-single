@@ -5,6 +5,7 @@ export function TypewriterEffectDemo() {
     const words = [
         {
             text: "Email",
+            className: "text-neutral-600"
         },
         {
             text: "me",
@@ -12,11 +13,12 @@ export function TypewriterEffectDemo() {
         },
         {
             text: "today!",
+            className: "text-neutral-600"
         },
-       
+
     ];
     return (
-        <div>
+        <div className="text-amber-500">
             <TypewriterEffect words={words} />
 
         </div>

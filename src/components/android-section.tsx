@@ -10,14 +10,14 @@ import {
 
 export default function AndroidSectionOne() {
     return (
-        <section id="android" className="relative w-full h-full pt-20  bg-neutral-400/80 dark:bg-neutral-700">
+        <section id="android" className="relative w-full h-full pt-20  bg-neutral-300/80 dark:bg-neutral-700">
             <div className="flex flex-col mx-auto max-w-7xl">
-                <h1 className="my-10 px-5 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-slate-500 ">Android recipe app</h1>
+                <h1 className="my-10 px-5 text-4xl font-bold dark:text-neutral-200 md:text-5xl lg:text-7xl text-neutral-600 ">Android recipe app</h1>
            
 
             <div className="flex flex-col md:flex-row relative text-center  items-stretch justify-center w-full gap-5 pb-10 ">
-                <Card className=" w-full items-center">
-                    <CardHeader className="w-full text-2xl">
+                <Card className=" w-full items-center  bg-neutral-200/80 dark:bg-neutral-800">
+                    <CardHeader className="w-full text-2xl text-neutral-600 dark:text-neutral-200">
                         <CardTitle>Category screen</CardTitle>
                         <CardDescription className="text-xl">Filter our recipe database by category.</CardDescription>
                     </CardHeader>
@@ -29,8 +29,8 @@ export default function AndroidSectionOne() {
                         />
                     </CardContent>
                 </Card>
-                <Card className="w-full items-center ">
-                    <CardHeader className="w-full text-2xl ">
+                <Card className="w-full items-center  bg-neutral-200/80 dark:bg-neutral-800">
+                    <CardHeader className="w-full text-2xl text-neutral-600 dark:text-neutral-200">
                         <CardTitle className="">Generate recipe with AI</CardTitle>
                         <CardDescription className="text-xl">Pick from common ingredients and generate an AI powered recipe.</CardDescription>
                     </CardHeader>
@@ -43,8 +43,8 @@ export default function AndroidSectionOne() {
                         />
                     </CardContent>
                 </Card>
-                <Card className="w-full items-center">
-                    <CardHeader className="w-full text-2xl">
+                <Card className="w-full items-center  bg-neutral-200/80 dark:bg-neutral-800">
+                    <CardHeader className="w-full text-2xl text-neutral-600 dark:text-neutral-200">
                         <CardTitle className="">Search screen</CardTitle>
                         <CardDescription className="text-xl ">Search our database of recipes.</CardDescription>
                     </CardHeader>

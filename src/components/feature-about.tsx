@@ -16,20 +16,20 @@ export function FeaturesSectionDemoAbout() {
         <section id="skills"className="bg-neutral-200/80 dark:bg-neutral-600 py-20">
            
             <div className="flex flex-col py-10 items-start max-w-7xl mx-auto " >
-            <h1 className="text-4xl px-5 font-bold mb-10 md:text-4xl lg:text-7xl dark:text-neutral-100 text-slate-700">Skills</h1>
+            <h1 className="text-4xl px-5 font-bold mb-10 md:text-4xl lg:text-7xl dark:text-neutral-300 text-neutral-600">Skills</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-4 ">
                     {grid.map((feature) => (
                         <div
                             key={feature.title}
-                            className="relative bg-gradient-to-b bg-neutral-950/30 to-neutral-950  p-6 rounded-3xl overflow-hidden"
+                            className="relative  bg-neutral-200 dark:bg-neutral-900/40 p-6 rounded-3xl overflow-hidden"
                         >
                             <Grid size={20} />
                             <div className="text-center ">
                                 <feature.icon className="m-4"></feature.icon>
-                                <p className="text-base font-bold text-white relative z-20">
+                                <p className="text-base font-bold relative z-20  dark:text-neutral-300 text-neutral-600">
                                     {feature.title}
                                 </p>
-                                <p className=" text-white mt-4 text-base font-normal relative z-20">
+                                <p className=" mt-4 text-base font-normal relative z-20  dark:text-neutral-300 text-neutral-600">
                                     {feature.description}
                                 </p>
                             </div>
@@ -108,7 +108,7 @@ export const Grid = ({
                     x="-12"
                     y="4"
                     squares={p}
-                    className="absolute inset-0 h-full w-full  mix-blend-overlay fill-white/20 stroke-white/20 "
+                    className="absolute inset-0 h-full w-full  mix-blend-overlay fill-neutral-200/70 stroke-neutral-100/70  dark:fill-neutral-800/20 dark:stroke-neutral-800/20 "
                 />
             </div>
         </div>
