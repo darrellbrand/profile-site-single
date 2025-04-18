@@ -13,7 +13,7 @@ import { SVGProps, useId, } from "react";
 
 export function FeaturesSectionDemoAbout() {
     return (
-        <section id="skills"className="bg-neutral-200/80 dark:bg-neutral-600 py-20">
+        <section id="skills"className="bg-neutral-200/80 dark:bg-neutral-200/40 py-20">
            
             <div className="flex flex-col py-10 items-start max-w-7xl mx-auto " >
             <h1 className="text-4xl px-5 font-bold mb-10 md:text-4xl lg:text-7xl dark:text-neutral-300 text-neutral-600">Skills</h1>
@@ -21,7 +21,7 @@ export function FeaturesSectionDemoAbout() {
                     {grid.map((feature) => (
                         <div
                             key={feature.title}
-                            className="relative  bg-neutral-300/40  dark:bg-neutral-700/40 p-6 rounded-3xl overflow-hidden"
+                            className="relative  bg-neutral-300/40  dark:bg-neutral-900/40 p-6 rounded-3xl overflow-hidden"
                         >
                             <Grid size={20} />
                             <div className="text-center ">
