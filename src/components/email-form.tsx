@@ -9,7 +9,7 @@ export default function EmailForm() {
         <section id="contact" className='w-full  bg-neutral-300/80 dark:bg-neutral-800 pt-20' >
             <div className=' flex flex-col w-full max-w-7xl mx-auto'>
                 <h1 className=' pt-5 my-5 px-5 w-full text-4xl font-bold dark:text-neutral-200 md:text-4xl lg:text-7xl text-slate-500'>Contact</h1>
-                <div className='flex flex-col items-center mx-auto  my-10 pt-20   max-w-7xl border rounded-2xl w-full   bg-neutral-300/80 dark:bg-neutral-700'>
+                <div className='flex flex-col items-center mx-auto  mt-10 mb-5 pt-20   max-w-7xl border rounded-2xl w-full   bg-neutral-300/80 dark:bg-neutral-700'>
                         <TypewriterEffectDemo></TypewriterEffectDemo>
                     <form
                         action="https://formspree.io/f/xeoanalj"
