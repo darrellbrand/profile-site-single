@@ -108,7 +108,7 @@ export const Grid = ({
                     x="-12"
                     y="4"
                     squares={p}
-                    className="absolute inset-0 h-full w-full  mix-blend-overlay dark:fill-white/10 dark:stroke-white/10 stroke-neutral-950/10 fill-neutral-950/20"
+                    className="absolute inset-0 h-full w-full  mix-blend-overlay dark:fill-white/20 dark:stroke-white/10 stroke-neutral-950/20 fill-neutral-950/30"
                 />
             </div>
         </div>
