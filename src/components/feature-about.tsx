@@ -17,7 +17,8 @@ export function FeaturesSectionDemoAbout() {
            
             <div className="flex mb-5 flex-col items-start max-w-7xl mx-auto " >
             <h1 className="text-2xl my-20 font-bold  md:text-3xl lg:text-5xl dark:text-neutral-300 text-neutral-600">Skills</h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-4 ">
+            <div className="bg-neutral-400/80 dark:bg-neutral-200/40 p-5 border rounded-2xl shadow-md">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-4">
                     {grid.map((feature) => (
                         <div
                             key={feature.title}
@@ -35,6 +36,7 @@ export function FeaturesSectionDemoAbout() {
                             </div>
                         </div>
                     ))}
+                </div>
                 </div>
             </div>
         </section>
