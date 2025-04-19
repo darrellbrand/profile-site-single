@@ -12,10 +12,10 @@ export default function AndroidSectionOne() {
             <div className="flex flex-col mx-auto max-w-7xl">
                 <h1 className="  py-20  text-2xl font-bold dark:text-neutral-200 md:text-3xl lg:text-5xl text-neutral-600 ">Android</h1>
                 <div className="flex flex-col  items-stretch justify-center w-full gap-5 my-5 ">
-                    <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800/50">
+                    <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800/50  shadow-md">
                         <div className="w-full flex flex-col md:flex-row  gap-5 items-center justify-center text-center">
                             <div className="flex justify-center flex-col text-2xl flex-1  text-neutral-600 dark:text-neutral-200">
-                            
+
                                 <CardTitle className="pb-5">Recipe King category screen.</CardTitle>
                                 <CardDescription className="text-xl">Filter recipes by category.</CardDescription>
                                 <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
@@ -33,7 +33,7 @@ export default function AndroidSectionOne() {
                             </div>
                         </div>
                     </Card>
-                    <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800/50">
+                    <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800/50 shadow-md">
                         <div className="flex w-full flex-col md:flex-row  gap-5 items-center justify-center">
 
                             <div className="flex-1 flex justify-center   flex-col text-2xl text-center text-neutral-600 dark:text-neutral-200">
@@ -55,7 +55,7 @@ export default function AndroidSectionOne() {
 
                         </div>
                     </Card>
-                    <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800/50">
+                    <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800/50 shadow-md">
                         <div className="flex w-full flex-col md:flex-row  gap-5 items-center justify-center">
                             <div className="flex-1 flex justify-center   flex-col text-2xl text-center text-neutral-600 dark:text-neutral-200">
                                 <CardTitle className="pb-5">Recipe King search screen.</CardTitle>

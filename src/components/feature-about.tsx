@@ -21,7 +21,7 @@ export function FeaturesSectionDemoAbout() {
                     {grid.map((feature) => (
                         <div
                             key={feature.title}
-                            className="relative  bg-gradient-to-b dark:from-neutral-900/20 from-neutral-100 dark:to-neutral-950 to-neutral-400 p-6 rounded-3xl overflow-hidden"
+                            className="relative  bg-gradient-to-b dark:from-neutral-900/20 from-neutral-100 dark:to-neutral-950 to-neutral-400 p-6 rounded-3xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.01] hover:bg-neutral-200 dark:hover:bg-neutral-700/60"
                         >
                             <Grid size={20} />
                             <div className="text-center ">

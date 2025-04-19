@@ -6,8 +6,8 @@ import { motion } from "motion/react";
 export default function HeroSectionOne() {
   return (
     <section id="home" className="pt-20 pb-5  bg-neutral-200/80 dark:bg-neutral-600/90 " >
-      <div className="relative flex flex-col ">
-        <div className="max-w-7xl mx-auto">
+      <div className="relative flex flex-col  ">
+        <div className="max-w-7xl mx-auto ">
           <h1 className="relative z-10 mx-auto mt-10 max-w-4xl text-center text-2xl font-bold text-neutral-700 md:text-4xl lg:text-7xl dark:text-neutral-50 ">
             {"Hi. I'm Darrell, a native android and full stack web developer."
               .split(" ")
@@ -56,7 +56,7 @@ export default function HeroSectionOne() {
             className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
           >
             <a href="#profile">
-              <button className="w-60 transform rounded-lg  px-6 py-2 font-medium text-neutral-300 bg-neutral-700 transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-600">
+              <button className="w-60 transform rounded-lg  px-6 py-2 font-medium text-neutral-300 bg-neutral-700 transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-600 ">
                 Learn More
               </button>
             </a>
@@ -81,7 +81,7 @@ export default function HeroSectionOne() {
             }}
             className="relative z-10 mt-10 rounded-3xl border border-neutral-200 bg-neutral-100 p-4 shadow-md dark:border-neutral-800 dark:bg-neutral-900"
           >
-            <div className="w-full overflow-hidden h-auto rounded-xl border border-gray-300 dark:border-gray-700">
+            <div className="w-full overflow-hidden h-auto rounded-xl border border-gray-300 dark:border-gray-700 transition-all duration-300 hover:shadow-lg hover:scale-[1.01] hover:bg-neutral-200 dark:hover:bg-neutral-700/60">
               <img
                 src="./images/Screenshot_20250416_181523.png"
                 alt="Landing page preview"
