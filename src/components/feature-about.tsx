@@ -21,7 +21,7 @@ export function FeaturesSectionDemoAbout() {
                     {grid.map((feature) => (
                         <div
                             key={feature.title}
-                            className="relative  bg-neutral-100/40  dark:bg-neutral-900/40 p-6 rounded-3xl overflow-hidden"
+                            className="relative  bg-gradient-to-b dark:from-neutral-900/20 from-neutral-100 dark:to-neutral-950 to-neutral-400 p-6 rounded-3xl overflow-hidden"
                         >
                             <Grid size={20} />
                             <div className="text-center ">
@@ -108,7 +108,7 @@ export const Grid = ({
                     x="-12"
                     y="4"
                     squares={p}
-                    className="absolute inset-0 h-full w-full  mix-blend-overlay fill-neutral-200/70 stroke-neutral-100/70  dark:fill-neutral-800/20 dark:stroke-neutral-800/20 "
+                    className="absolute inset-0 h-full w-full  mix-blend-overlay dark:fill-white/10 dark:stroke-white/10 stroke-neutral-950/10 fill-neutral-950/20"
                 />
             </div>
         </div>
