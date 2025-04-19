@@ -17,10 +17,7 @@ export default function AndroidSectionOne() {
                     <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800">
                         <div className="w-full flex flex-col md:flex-row  gap-5 items-center justify-center text-center">
                             <div className="flex justify-center flex-col text-2xl flex-1  text-neutral-600 dark:text-neutral-200">
-                                <img src="./images/logo_color.png"
-                                    alt="Landing page preview"
-                                    className="max-w-48 mx-auto rounded-2xl mb-32 object-cover ">
-                                </img>
+                                
                                 <CardTitle className="pb-5">Category screen</CardTitle>
                                 <CardDescription className="\ text-xl">Filter recipes by category.</CardDescription>
                                 <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
@@ -42,10 +39,6 @@ export default function AndroidSectionOne() {
                         <div className="flex w-full flex-col md:flex-row  gap-5 items-center justify-center">
 
                             <div className="flex-1 flex justify-center   flex-col text-2xl text-center text-neutral-600 dark:text-neutral-200">
-                                <img src="./images/logo_color.png"
-                                    alt="Landing page preview"
-                                    className=" w-full mx-auto max-w-48 object-cover rounded-2xl mb-32 ">
-                                </img>
                                 <CardTitle className="pb-5">Generate recipe screen</CardTitle>
                                 <CardDescription className="text-xl">Generate an AI assisted recipe.</CardDescription>
                                 <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
@@ -67,10 +60,6 @@ export default function AndroidSectionOne() {
                     <Card className=" w-full items-center p-15  bg-neutral-200/80 dark:bg-neutral-800">
                         <div className="flex w-full flex-col md:flex-row  gap-5 items-center justify-center">
                             <div className="flex-1 flex justify-center   flex-col text-2xl text-center text-neutral-600 dark:text-neutral-200">
-                                <img src="./images/logo_color.png"
-                                    alt="Landing page preview"
-                                    className=" w-full mx-auto max-w-48 object-cover rounded-2xl mb-32 ">
-                                </img>
                                 <CardTitle className="pb-5">Search screen</CardTitle>
                                 <CardDescription className="text-xl">Search our database of recipes.</CardDescription>
                                 <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
