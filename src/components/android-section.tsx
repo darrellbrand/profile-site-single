@@ -26,7 +26,7 @@ export default function AndroidSectionOne() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="flex-1 flex justify-center">
+                            <div className="flex-2 flex justify-center">
                                 <img
                                     src="./images/gif1-ezgif.com-video-to-gif-converter.gif"
                                     alt="Landing page preview"
@@ -49,7 +49,7 @@ export default function AndroidSectionOne() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="  flex-1 flex">
+                            <div className="  flex-2 flex">
                                 <img
                                     src="./images/gif3-ezgif.com-video-to-gif-converter.gif"
                                     alt="Landing page preview"
@@ -72,7 +72,7 @@ export default function AndroidSectionOne() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="flex-1 flex">
+                            <div className="flex-2 flex">
                                 <img
                                      src="./images/gif4-ezgif.com-video-to-gif-converter.gif"
                                     alt="Landing page preview"
