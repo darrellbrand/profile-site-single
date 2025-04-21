@@ -18,9 +18,13 @@ export default function AndroidSectionOne() {
                                 <CardDescription className="text-xl font-bold my-5">Recipe King</CardDescription>
                                 <CardTitle className="pb-5">AI powered recipe app</CardTitle>
                                 <CardDescription className="text-xl">Browse our recipe database or generate an AI assisted recipe.</CardDescription>
-                                <div className="flex justify-center md:justify-start">
-                                    <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s"  target="_blank" rel="noopener noreferrer">
-                                        <button className=" mt-10  md:mt-80 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
+                                <img src="./images/recipe.png"
+                                    alt="Landing page preview"
+                                    className="  mt-10 md:mt-30  max-w-24  w-full mx-auto object-cover rounded-2xl">
+                                </img>
+                                <div className="flex justify-center">
+                                    <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s" target="_blank" rel="noopener noreferrer">
+                                        <button className=" mt-10  md:mt-15 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
                                             Demo Video
                                         </button>
                                     </a>
@@ -41,8 +45,12 @@ export default function AndroidSectionOne() {
                                 <CardDescription className="text-xl font-bold my-5">Note Boss</CardDescription>
                                 <CardTitle className="pb-5">Store Notes</CardTitle>
                                 <CardDescription className="text-xl">Store your notes in local storage.</CardDescription>
-                                <div className=" md:mt-80   flex justify-center md:justify-start">
-                                    <a href="https://youtube.com/shorts/pOssuVUjEiw?feature=share"  target="_blank" rel="noopener noreferrer">
+                                <img src="./images/note.png"
+                                    alt="Landing page preview"
+                                    className="   mt-10 md:mt-30  max-w-24  w-full mx-auto object-cover rounded-2xl">
+                                </img>
+                                <div className=" mt-10  md:mt-15   flex justify-center ">
+                                    <a href="https://youtube.com/shorts/pOssuVUjEiw?feature=share" target="_blank" rel="noopener noreferrer">
                                         <button className=" m-5 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
                                             Demo Video
                                         </button>
@@ -64,8 +72,12 @@ export default function AndroidSectionOne() {
                                 <CardDescription className="text-xl font-bold my-5">Chat Client</CardDescription>
                                 <CardTitle className="pb-5">Getstream SDK Integration</CardTitle>
                                 <CardDescription className="text-xl">Android messaging app featuring the Getstream SDK.</CardDescription>
-                                <div className=" md:mt-80   flex justify-center md:justify-start">
-                                    <a href="https://youtube.com/shorts/wFMom2i1Nzc?feature=share"  target="_blank" rel="noopener noreferrer">
+                                <img src="./images/chat.png"
+                                    alt="Landing page preview"
+                                    className="mt-10 md:mt-30  max-w-24  w-full mx-auto object-cover rounded-2xl">
+                                </img>
+                                <div className=" mt-10  md:mt-15   flex justify-center ">
+                                    <a href="https://youtube.com/shorts/wFMom2i1Nzc?feature=share" target="_blank" rel="noopener noreferrer">
                                         <button className=" m-5 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
                                             Demo Video
                                         </button>
@@ -87,7 +99,11 @@ export default function AndroidSectionOne() {
                                 <CardDescription className="text-xl font-bold my-5">News Boss</CardDescription>
                                 <CardTitle className="pb-5">Read News Articles </CardTitle>
                                 <CardDescription className="text-xl">Read news articles. Based on the metro zone app.</CardDescription>
-                                <div className=" md:mt-80   flex justify-center md:justify-start">
+                                <img src="./images/news.png"
+                                    alt="Landing page preview"
+                                    className="mt-10 md:mt-30  max-w-24  w-full mx-auto object-cover rounded-2xl">
+                                </img>
+                                <div className=" mt-10  md:mt-15   flex justify-center ">
                                     <a href="https://youtube.com/shorts/6Y1SmeXgj-w?feature=share"
                                         target="_blank" rel="noopener noreferrer">
                                         <button className=" m-5 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
