@@ -17,7 +17,7 @@ export default function AndroidSectionOne() {
                             <div className="flex  flex-col text-2xl flex-1  text-neutral-600 dark:text-neutral-200">
                                 <CardDescription className="text-xl font-bold my-5">Recipe King</CardDescription>
                                 <CardTitle className="pb-5">AI powered recipe app</CardTitle>
-                                <CardDescription className="text-xl">Browse our recipe database or generate an ai assisted recipe.</CardDescription>
+                                <CardDescription className="text-xl">Browse our recipe database or generate an AI assisted recipe.</CardDescription>
                                 <div className="flex justify-center md:justify-start">
                                     <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
                                         <button className=" mt-10  md:mt-80 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
@@ -28,7 +28,7 @@ export default function AndroidSectionOne() {
                             </div>
                             <div className="flex-2 flex justify-center">
                                 <img
-                                    src="./images/gif1-ezgif.com-video-to-gif-converter.gif"
+                                    src="./images/recipe-ezgif.com-video-to-gif-converter.gif"
                                     alt="Landing page preview"
                                     className=" max-w-64 w-full mx-auto object-cover "
                                 />
@@ -42,7 +42,7 @@ export default function AndroidSectionOne() {
                                 <CardTitle className="pb-5">Store Notes</CardTitle>
                                 <CardDescription className="text-xl">Store your notes in local storeage.</CardDescription>
                                 <div className=" md:mt-80   flex justify-center md:justify-start">
-                                    <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
+                                    <a href="https://youtube.com/shorts/pOssuVUjEiw?feature=share">
                                         <button className=" m-5 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
                                             Demo Video
                                         </button>
@@ -61,11 +61,11 @@ export default function AndroidSectionOne() {
                     <Card className=" w-full items-center p-10  bg-neutral-200/80 dark:bg-neutral-800/50 shadow-md">
                         <div className="flex w-full flex-col md:flex-row  gap-5 items-center justify-center">
                             <div className="flex-1 flex  flex-col text-2xl  text-neutral-600 dark:text-neutral-200">
-                                <CardDescription className="text-xl font-bold my-5">Note Boss</CardDescription>
-                                <CardTitle className="pb-5">Store Notes</CardTitle>
-                                <CardDescription className="text-xl">Store your notes in local storeage.</CardDescription>
+                                <CardDescription className="text-xl font-bold my-5">Chat Client</CardDescription>
+                                <CardTitle className="pb-5">Getstream SDK Integration</CardTitle>
+                                <CardDescription className="text-xl">Android messaging app featuring the Getstream SDK.</CardDescription>
                                 <div className=" md:mt-80   flex justify-center md:justify-start">
-                                    <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
+                                    <a href="https://youtube.com/shorts/wFMom2i1Nzc?feature=share">
                                         <button className=" m-5 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
                                             Demo Video
                                         </button>
@@ -74,7 +74,7 @@ export default function AndroidSectionOne() {
                             </div>
                             <div className="flex-2 flex">
                                 <img
-                                     src="./images/note-ezgif.com-video-to-gif-converter.gif"
+                                     src="./images/chat-ezgif.com-video-to-gif-converter.gif"
                                     alt="Landing page preview"
                                     className="flex-1 max-w-64 w-full  mx-auto object-fit "
                                 />
@@ -84,11 +84,11 @@ export default function AndroidSectionOne() {
                     <Card className=" w-full items-center p-10  bg-neutral-200/80 dark:bg-neutral-800/50 shadow-md">
                         <div className="flex w-full flex-col md:flex-row  gap-5 items-center justify-center">
                             <div className="flex-1 flex  flex-col text-2xl  text-neutral-600 dark:text-neutral-200">
-                                <CardDescription className="text-xl font-bold my-5">Note Boss</CardDescription>
-                                <CardTitle className="pb-5">Store Notes</CardTitle>
-                                <CardDescription className="text-xl">Store your notes in local storeage.</CardDescription>
+                                <CardDescription className="text-xl font-bold my-5">News Boss</CardDescription>
+                                <CardTitle className="pb-5">Read News Articles </CardTitle>
+                                <CardDescription className="text-xl">Read news articles. Based on the metro zone app.</CardDescription>
                                 <div className=" md:mt-80   flex justify-center md:justify-start">
-                                    <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
+                                <a href="https://youtube.com/shorts/6Y1SmeXgj-w?feature=share">
                                         <button className=" m-5 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
                                             Demo Video
                                         </button>
@@ -97,7 +97,7 @@ export default function AndroidSectionOne() {
                             </div>
                             <div className="flex-2 flex">
                                 <img
-                                     src="./images/chat-ezgif-chat.com-video-to-gif-converter.gif"
+                                     src="./images/news-ezgif.com-video-to-gif-converter.gif"
                                     alt="Landing page preview"
                                     className="flex-1 max-w-64 w-full  mx-auto object-fit "
                                 />
