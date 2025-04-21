@@ -40,7 +40,7 @@ export default function AndroidSectionOne() {
                             <div className="flex-1 flex  flex-col text-2xl  text-neutral-600 dark:text-neutral-200">
                                 <CardDescription className="text-xl font-bold my-5">Note Boss</CardDescription>
                                 <CardTitle className="pb-5">Store Notes</CardTitle>
-                                <CardDescription className="text-xl">Store your notes in local storeage.</CardDescription>
+                                <CardDescription className="text-xl">Store your notes in local storage.</CardDescription>
                                 <div className=" md:mt-80   flex justify-center md:justify-start">
                                     <a href="https://youtube.com/shorts/pOssuVUjEiw?feature=share"  target="_blank" rel="noopener noreferrer">
                                         <button className=" m-5 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-600 dark:text-neutral-300 dark:hover:bg-neutral-500">
