@@ -60,7 +60,7 @@ export default function HeroSectionOne() {
                 Learn More
               </button>
             </a>
-            <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s">
+            <a href="https://www.youtube.com/watch?v=R8hJNKSZNo0&t=8s"  target="_blank" rel="noopener noreferrer">
               <button className="w-60 transform rounded-lg  text-neutral-300 bg-neutral-700   px-6 py-2 font-medium  transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-400 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-600">
                  Demo Video
               </button>
