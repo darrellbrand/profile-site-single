@@ -27,8 +27,12 @@ export default function ProfileSectionOne() {
                                 </div>
                                 <div className="flex-1 flex justify-center my-10">
                                     <CardDescription className="text-xl text-center  md:text-xl lg:text-2xl dark:text-neutral-300  text-neutral-500">
-                                        Experienced in building Android and full-stack web applications with a strong focus on performance and maintainability. At ESChat, I worked on Android apps using Kotlin, Java, Jetpack Compose, MVVM, and Dagger Hilt, along with writing automation tests using Appium to ensure quality.
-                                        I also develop web frontends with Next.js and connect them to secure, scalable Spring Boot backends. Comfortable working across multiple languages including Python, Lua, Bash, C/C++, and NSIS, I bring a solid engineering foundation and a detail-oriented mindset to every project.</CardDescription>
+                                        With 8 years of experience, I build high-performance Android and full-stack web applications. At ESChat, I worked with Kotlin, Java, Jetpack Compose, MVVM, and Dagger Hilt, ensuring quality with Appium tests.
+
+                                        On the web, I create responsive Next.js frontends connected to secure Spring Boot backends. I'm fluent in languages like Python, Lua, Bash, C/C++, and NSIS, bringing strong engineering fundamentals and a focus on clean, maintainable code to every project.
+
+
+                                    </CardDescription>
                                 </div>
                             </div>
                         </Card>
